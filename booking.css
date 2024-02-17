@@ -1,0 +1,70 @@
+body:hover{
+    cursor: pointer;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-container{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px 0;
+    border: 1px solid #ffd700;
+    background-color: #ffd700;
+    z-index: 1;
+}
+.carousel-item img{
+    margin-top: 120px;
+    height: 800px;
+}
+
+
+ .container1>img{
+    width: 250px;
+    filter: grayscale(1) brightness(0);
+
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* display:inline; */
+    font-size: x-large;
+    justify-content: center;
+    /* margin-right: 20%; */
+    gap: 20px;
+    /* margin: 20px;  */
+    color: black;
+} 
+
+.link> button{
+    background-color: #ffd700;
+    color: black;
+}
+.second-container{
+    width: 100%;
+
+    /* height: 1200px; */
+    background-color: #ffd700;
+}
+.link1>img{
+    
+    width: 900px;
+    border: 1px solid black;
+    height: 500px;
+}
+.link1{
+    display: flex;  
+    font-size: 30px;
+}
+
+@media(min-width:400px) and ( max-width:1140px) {
+    
+    
+}
